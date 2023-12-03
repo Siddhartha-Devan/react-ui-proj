@@ -6,10 +6,10 @@ const Feature = ({title, text}) => {
     <div className='gpt3__features-container-feature'>
       <div className='gpt3__features-container-feature-title'>
         <div></div>
-        {title}
+        <h1>{title}</h1>
       </div>
       <div className='gpt3__features-container-feature-text'>
-        {text}
+        <p>{text}</p>
       </div>
     </div>
   )
